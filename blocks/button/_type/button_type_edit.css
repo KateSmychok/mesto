@@ -2,11 +2,12 @@
   width: 24px;
   height: 24px;
   border: 1px solid #fff;
-  background: url(../../../images/Edit.png) center no-repeat;
+  background: url(../../../images/Edit.svg) center no-repeat;
   outline-style: none;
   padding: 0;
   margin: 0 0 0 18px;
   cursor: pointer;
+  transition: opacity 1s ease;
 }
 
 .button_type_edit:hover {
@@ -17,8 +18,5 @@
   .button_type_edit {
     width: 18px;
     height: 18px;
-    position: absolute;
-    right: -28px;
-    top: 30px;
   }
 }

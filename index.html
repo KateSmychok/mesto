@@ -8,11 +8,11 @@
 </head>
 <body class="page">
   <header class="header">
-    <img class="header__logo" src="./images/logo_header.png" alt="Логотип">
+    <img class="header__logo" src="./images/logo.svg" alt="Логотип">
   </header>
   <main class="content">
     <section class="profile">
-      <img class="profile__avatar" src="images/Жак Ив Кусто.jpg" alt="Фото пользователя">
+      <img class="profile__avatar" src="images/Жак-Ив_Кусто.jpg" alt="Фото пользователя">
       <div class="profile__info">
         <div class="profile__first-row">
           <h1 class="profile__name">Жак-Ив Кусто</h1>
@@ -26,56 +26,56 @@
       <article class="place">
         <img class="place__image" src="images/Эльбрус.jpg" alt="Эльбрус">
         <div class="place__caption">
-          <p class="place__title">Эльбрус</p>
+          <h2 class="place__title">Эльбрус</h2>
           <button type="button" class="button button_type_like"></button>
         </div>
       </article>
       <article class="place">
         <img class="place__image" src="images/Кичи-Балык.jpg" alt="Кичи-Балык">
         <div class="place__caption">
-          <p class="place__title">Кичи-Балык, Карачаево-Черкесская Республика</p>
+          <h2 class="place__title">Кичи-Балык, Карачаево-Черкесская Республика</h2>
           <button type="button" class="button button_type_like"></button>
         </div>
       </article>
       <article class="place">
         <img class="place__image" src="images/Байкал.jpg" alt="Байкал">
         <div class="place__caption">
-          <p class="place__title">Байкал</p>
+          <h2 class="place__title">Байкал</h2>
           <button type="button" class="button button_type_like"></button>
         </div>
       </article>
       <article class="place">
-        <img class="place__image" src="images/Красноярский край.jpg" alt="Красноярский край">
+        <img class="place__image" src="images/Красноярский_край.jpg" alt="Красноярский край">
         <div class="place__caption">
-          <p class="place__title">Красноярский край</p>
+          <h2 class="place__title">Красноярский край</h2>
           <button type="button" class="button button_type_like"></button>
         </div>
       </article>
       <article class="place">
         <img class="place__image" src="images/Крым.jpg" alt="Крым">
         <div class="place__caption">
-          <p class="place__title">Крым</p>
+          <h2 class="place__title">Крым</h2>
           <button type="button" class="button button_type_like"></button>
         </div>
       </article>
       <article class="place">
         <img class="place__image" src="images/Домбай.jpg" alt="Домбай">
         <div class="place__caption">
-          <p class="place__title">Домбай</p>
+          <h2 class="place__title">Домбай</h2>
           <button type="button" class="button button_type_like"></button>
         </div>
       </article>
     </section>
   </main>
   <footer class="footer">
-    <p class="footer__copyright">&#169; 2020 Mesto Russia</p>
+    <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
   </footer>
   <div class="popup">
     <div class="popup__content">
       <h3 class="popup__title">Редактировать профиль</h3>
-      <form class="popup__form">
-        <input type="text" class="popup__input popup__input_type_name">
-        <input type="text" class="popup__input popup__input_type_job">
+      <form name="submitForm" class="popup__form">
+        <input type="text" name="name" class="popup__input popup__input_type_name">
+        <input type="text" name="job" class="popup__input popup__input_type_job">
         <button type="submit" class="button button_type_submit">Сохранить</button>
       </form>
       <button type="button" class="button button_type_close"></button>
@@ -84,3 +84,7 @@
   <script src="scripts/script.js"></script>
 </body>
 </html>
+
+<!-- Александр, спасибо за подробные комментарии и быструю проверку :)
+Картинки пробовала сжать еще раз тремя разными прогами, максимум 5%. Поэтому оставила так. Остальное исправила.
+-->

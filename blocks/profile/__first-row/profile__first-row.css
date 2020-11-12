@@ -5,6 +5,6 @@
 
 @media screen and (max-width: 767px) {
   .profile__first-row {
-    position: relative;
+    justify-content: center;
   }
 }
