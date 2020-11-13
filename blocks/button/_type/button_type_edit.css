@@ -3,15 +3,8 @@
   height: 24px;
   border: 1px solid #fff;
   background: url(../../../images/Edit.svg) center no-repeat;
-  outline-style: none;
   padding: 0;
   margin: 0 0 0 18px;
-  cursor: pointer;
-  transition: opacity 1s ease;
-}
-
-.button_type_edit:hover {
-  opacity: 0.6;
 }
 
 @media screen and (max-width: 767px) {

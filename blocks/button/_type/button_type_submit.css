@@ -10,12 +10,9 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  outline-style: none;
   margin-top: 48px;
   border: none;
   padding: 0;
-  cursor: pointer;
-  transition: opacity 1s ease;
 }
 
 .button_type_submit:hover {

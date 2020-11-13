@@ -26,24 +26,13 @@
       <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_edit.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_type/button_type_edit.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_like.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_type/button_type_like.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_submit.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_type/button_type_submit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/place/place.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/place/place.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__content/popup__content.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__content/popup__content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_job.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_job.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_name.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_name.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/popup_opened.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/_opened/popup_opened.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/profile/__first-row/profile__first-row.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/profile/__first-row/profile__first-row.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/profile/__info/profile__info.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/profile/__info/profile__info.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/profile/__job/profile__job.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/profile/__job/profile__job.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/profile/__name/profile__name.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/profile/__name/profile__name.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Add.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Edit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo_header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Жак Ив Кусто.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Красноярский край.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Байкал.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Байкал.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Домбай.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Домбай.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Кичи-Балык.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Кичи-Балык.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Красноярский_край.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Красноярский_край.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Крым.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Крым.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Эльбрус.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Эльбрус.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
     </list>
@@ -98,6 +87,7 @@
       <workItem from="1604989656499" duration="33545000" />
       <workItem from="1605102834199" duration="772000" />
       <workItem from="1605166642187" duration="16807000" />
+      <workItem from="1605250388965" duration="2317000" />
     </task>
     <servers />
   </component>

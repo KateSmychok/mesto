@@ -8,9 +8,9 @@ let nameInput = document.querySelector('.popup__input_type_name');
 let jobInput = document.querySelector('.popup__input_type_job');
 
 function showPopup() {
-  popup.classList.add('popup_opened');
   nameInput.value = name.textContent;
   jobInput.value = job.textContent;
+  popup.classList.add('popup_opened');
 }
 
 openButton.addEventListener('click', showPopup);
