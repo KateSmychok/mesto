@@ -1,4 +1,3 @@
-const popup = document.querySelector('.popup');
 const popupProfile = document.querySelector('.popup_type_profile');
 const popupAddCard = document.querySelector('.popup_type_addCard');
 const popupFullImage = document.querySelector('.popup_type_fullImage');
@@ -34,6 +33,17 @@ const closeButtons = document.querySelectorAll('.button_type_close');
 function closePopup(popupCurrent) {
   popupCurrent.classList.remove('popup_opened');
 }
+
+function closePopupOut(evt) {
+  const popupOpened = document.querySelector('.popup_opened');
+  if(evt.target.classList.contains('popup_opened')) {
+    closePopup(popupOpened);
+  }
+}
+
+popupProfile.addEventListener('mousedown', closePopupOut);
+popupAddCard.addEventListener('mousedown', closePopupOut);
+popupFullImage.addEventListener('mousedown', closePopupOut);
 
 closeButtons.forEach(function(element) {
   element.addEventListener('click', function(evt) {
@@ -87,7 +97,6 @@ const initialCards = [
 ];
 
 const places = document.querySelector('.places');
-const place = document.querySelector('.place');
 
 function addCard(cardTitleValue, cardLinkValue) {
 
@@ -96,6 +105,7 @@ function addCard(cardTitleValue, cardLinkValue) {
 
   cardElement.querySelector('.place__title').textContent = cardTitleValue;
   cardElement.querySelector('.place__image').setAttribute('src', cardLinkValue);
+  cardElement.querySelector('.place__image').setAttribute('alt', cardTitleValue);
 
   const buttonLike = cardElement.querySelector('.button_type_like');
 
@@ -124,7 +134,7 @@ const popupImage = document.querySelector('.popup__image');
 const popupCaption = document.querySelector('.popup__caption');
 
 placeImages.forEach(function(element) {
-  element.addEventListener('click', function (evt) {
+  element.addEventListener('click', function () {
     showPopup(popupFullImage);
     popupImage.setAttribute('src', element.src);
     const currentPlaceTitle = element.nextSibling.nextSibling.firstChild.nextSibling;
