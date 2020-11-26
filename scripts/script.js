@@ -137,6 +137,7 @@ placeImages.forEach(function(element) {
   element.addEventListener('click', function () {
     showPopup(popupFullImage);
     popupImage.setAttribute('src', element.src);
+    popupImage.setAttribute('alt', element.alt);
     const currentPlaceTitle = element.nextSibling.nextSibling.firstChild.nextSibling;
     popupCaption.textContent = currentPlaceTitle.textContent;
   })
