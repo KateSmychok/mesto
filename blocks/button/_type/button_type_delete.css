@@ -1,0 +1,12 @@
+.button_type_delete {
+  min-height: 19px;
+  min-width: 18px;
+  background: url(../../../images/Delete.svg) center no-repeat;
+  background-size: 18px 19px;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}

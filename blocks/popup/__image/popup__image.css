@@ -1,0 +1,4 @@
+.popup__image {
+  background-size: 100%;
+  object-fit: contain;
+}

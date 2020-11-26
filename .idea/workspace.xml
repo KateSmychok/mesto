@@ -21,18 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="49e97c01-56e1-4a8e-91a8-01956a6a9d4c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_add.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_type/button_type_add.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_close.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_type/button_type_close.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_edit.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_type/button_type_edit.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_like.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_type/button_type_like.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_submit.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_type/button_type_submit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/profile/__info/profile__info.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/profile/__info/profile__info.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Байкал.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Байкал.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Домбай.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Домбай.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Кичи-Балык.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Кичи-Балык.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Красноярский_край.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Красноярский_край.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Крым.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Крым.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Эльбрус.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Эльбрус.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/place/place.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/place/place.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__content/popup__content.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__content/popup__content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
     </list>
@@ -42,6 +35,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1k5Trlj1NhuvKAcVbWTKtvHqcVV" />
@@ -71,10 +69,22 @@
       <recent name="C:\Users\Designer1\dev\mesto\blocks\popup\__form" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.script.js">
     <configuration name="Google" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9229">
       <method v="2" />
     </configuration>
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/scripts/script.js" working-dir="$PROJECT_DIR$/scripts">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Attach to Node.js/Chrome.Google" />
+      <item itemvalue="Node.js.script.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.script.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,7 +97,9 @@
       <workItem from="1604989656499" duration="33545000" />
       <workItem from="1605102834199" duration="772000" />
       <workItem from="1605166642187" duration="16807000" />
-      <workItem from="1605250388965" duration="2317000" />
+      <workItem from="1605250388965" duration="3076000" />
+      <workItem from="1605299348090" duration="1131000" />
+      <workItem from="1606042074947" duration="95433000" />
     </task>
     <servers />
   </component>
@@ -107,14 +119,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="306" y="283" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605015555648">
+    <state x="306" y="283" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606391950468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="306" y="283" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1605015555648" />
-    <state x="700" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604991528020">
+    <state x="306" y="283" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606391950468" />
+    <state x="700" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606048636255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="700" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1604991528020" />
+    <state x="700" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606048636255" />
+    <state x="593" y="323" key="RollbackChangesDialog" timestamp="1606216293147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="593" y="323" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606216293147" />
+    <state x="486" y="402" key="Vcs.Push.Dialog.v2" timestamp="1606392432022">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="486" y="402" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606392432022" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604992153796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -123,10 +143,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="231" y="118" width="585" height="888" key="find.popup/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1604996972390" />
-    <state x="1189" y="216" key="run.anything.popup" timestamp="1604992046523">
+    <state x="1179" y="327" key="run.anything.popup" timestamp="1606391978924">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1189" y="216" key="run.anything.popup/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1604992046523" />
+    <state x="1179" y="327" key="run.anything.popup/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606391978924" />
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1604992056779">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

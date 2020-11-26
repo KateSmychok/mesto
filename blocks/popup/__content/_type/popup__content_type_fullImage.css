@@ -1,0 +1,7 @@
+.popup__content_type_fullImage {
+  max-width: 75vw;
+  max-height: 75vh;
+  box-shadow: none;
+  border-radius: 0;
+  background: transparent;
+}
