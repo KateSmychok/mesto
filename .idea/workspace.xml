@@ -21,9 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="49e97c01-56e1-4a8e-91a8-01956a6a9d4c" name="Default Changelist" comment="Функционал попапов, загрузка изображений через JS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/_opened/popup_opened.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/_opened/popup_opened.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__image/popup__image.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__image/popup__image.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +95,7 @@
       <workItem from="1605250388965" duration="3076000" />
       <workItem from="1605299348090" duration="1131000" />
       <workItem from="1606042074947" duration="100610000" />
+      <workItem from="1606429883593" duration="798000" />
     </task>
     <servers />
   </component>
