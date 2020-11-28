@@ -95,12 +95,14 @@ submitFormAddCard.addEventListener('submit', function(evt) {
     name: cardTitleInput.value,
     link: cardLinkInput.value
   });
-  createCard(item);
   addCard(item);
   closePopup(popupAddCard);
 })
 
 const cardTemplate = document.querySelector('#card-template').content;
+
+const popupImage = document.querySelector('.popup__image');
+const popupCaption = document.querySelector('.popup__caption');
 
 function createCard(item) {
   const cardElement = cardTemplate.cloneNode(true);
@@ -125,8 +127,6 @@ function createCard(item) {
 
   cardImage.addEventListener('click', function() {
     showPopup(popupFullImage);
-    const popupImage = document.querySelector('.popup__image');
-    const popupCaption = document.querySelector('.popup__caption');
     popupImage.src = cardImage.src;
     popupImage.alt = cardTitle.textContent;
     popupCaption.textContent = cardTitle.textContent;
@@ -137,8 +137,7 @@ function createCard(item) {
 const places = document.querySelector('.places');
 
 function addCard(cardElement) {
-  const item = cardElement;
-  places.prepend(item);
+  places.prepend(cardElement);
 }
 
 initialCards.forEach(itemInfo=> {
