@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49e97c01-56e1-4a8e-91a8-01956a6a9d4c" name="Default Changelist" comment="Функционал попапов, загрузка изображений через JS" />
+    <list default="true" id="49e97c01-56e1-4a8e-91a8-01956a6a9d4c" name="Default Changelist" comment="Функционал попапов, загрузка изображений через JS">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/place/__caption/place__caption.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/place/__caption/place__caption.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/place/__image/place__image.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/place/__image/place__image.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,6 +100,8 @@
       <workItem from="1606042074947" duration="100610000" />
       <workItem from="1606429883593" duration="798000" />
       <workItem from="1606431359093" duration="1409000" />
+      <workItem from="1606432801558" duration="287000" />
+      <workItem from="1606507436491" duration="25777000" />
     </task>
     <servers />
   </component>
@@ -121,6 +129,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="700" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606048636255" />
+    <state x="828" y="401" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606517641149">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="401" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606517641149" />
     <state x="674" y="424" key="FileChooserDialogImpl" timestamp="1606392492521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -145,9 +157,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1179" y="327" key="run.anything.popup/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606391978924" />
-    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1604992056779">
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1606512869545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1604992056779" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606512869545" />
   </component>
 </project>
