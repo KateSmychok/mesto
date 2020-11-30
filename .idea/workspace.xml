@@ -21,14 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="49e97c01-56e1-4a8e-91a8-01956a6a9d4c" name="Default Changelist" comment="Функционал попапов, загрузка изображений через JS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_submit.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_type/button_type_submit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_card-link.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_card-link.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_card-title.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_card-title.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_name.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_name.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__error/_visible/popup__error_visible.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +112,7 @@
       <workItem from="1606596454793" duration="291000" />
       <workItem from="1606652393445" duration="20570000" />
       <workItem from="1606731366942" duration="19102000" />
+      <workItem from="1606758702526" duration="483000" />
     </task>
     <servers />
   </component>
