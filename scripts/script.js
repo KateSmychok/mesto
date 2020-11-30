@@ -37,10 +37,14 @@ const name = document.querySelector('.profile__name');
 const job = document.querySelector('.profile__job');
 const nameInput = document.querySelector('.popup__input_type_name');
 const jobInput = document.querySelector('.popup__input_type_job');
+const nameInputError = document.querySelector('#name-error');
+const jobInputError = document.querySelector('#job-error');
 
 const submitFormAddCard = document.querySelector('.popup__form_type_addCard');
 const cardTitleInput = document.querySelector('.popup__input_type_card-title');
 const cardLinkInput = document.querySelector('.popup__input_type_card-link');
+const cardTitleInputError = document.querySelector('#title-error');
+const cardLinkInputError = document.querySelector('#link-error');
 
 function showPopup(popupCurrent) {
   popupCurrent.classList.add('popup_opened');
@@ -50,12 +54,23 @@ editButton.addEventListener('click', function() {
   nameInput.value = name.textContent;
   jobInput.value = job.textContent;
   showPopup(popupProfile);
+  const buttonProfile = document.querySelector('.button_type_profile');
+  buttonProfile.classList.remove('button_type_submit-disabled');
+  nameInput.classList.remove('popup__input_error');
+  jobInput.classList.remove('popup__input_error');
+  nameInputError.textContent = '';
+  jobInputError.textContent = '';
 })
 
 addCardButton.addEventListener('click', function () {
   cardTitleInput.value = '';
   cardLinkInput.value = '';
   showPopup(popupAddCard);
+  cardTitleInput.classList.remove('popup__input_error');
+  cardLinkInput.classList.remove('popup__input_error');
+  cardTitleInputError.textContent = '';
+  cardLinkInputError.textContent = '';
+
 })
 
 const closeButtons = document.querySelectorAll('.button_type_close');
@@ -74,6 +89,15 @@ function closePopupOut(evt) {
 popupProfile.addEventListener('mousedown', closePopupOut);
 popupAddCard.addEventListener('mousedown', closePopupOut);
 popupFullImage.addEventListener('mousedown', closePopupOut);
+
+function closePopupEsc(evt) {
+  if (evt.key === 'Escape') {
+    const popupOpened = document.querySelector('.popup_opened');
+    closePopup(popupOpened);
+  }
+}
+
+document.addEventListener('keydown', closePopupEsc);
 
 closeButtons.forEach(function(element) {
   element.addEventListener('click', function(evt) {

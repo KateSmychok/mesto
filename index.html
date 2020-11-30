@@ -31,9 +31,27 @@
     <div class="popup__content popup__content_type_profile">
       <h3 class="popup__title">Редактировать профиль</h3>
       <form name="submitForm-profile" class="popup__form popup__form_type_profile">
-        <input type="text" name="name" class="popup__input popup__input_type_name">
-        <input type="text" name="job" class="popup__input popup__input_type_job">
-        <button type="submit" class="button button_type_submit">Сохранить</button>
+        <input
+          id="name"
+          autocomplete="off"
+          type="text"
+          name="name"
+          class="popup__input popup__input_type_name"
+          minlength="2"
+          maxlength="40"
+          required>
+        <span class="popup__error_visible" id="name-error"> </span>
+        <input
+          id="job"
+          autocomplete="off"
+          type="text"
+          name="job"
+          class="popup__input popup__input_type_job"
+          minlength="2"
+          maxlength="200"
+          required>
+        <span class="popup__error_visible" id="job-error"> </span>
+        <button type="submit" class="button button_type_submit button_type_profile">Сохранить</button>
       </form>
       <button type="button" class="button button_type_close"></button>
     </div>
@@ -42,8 +60,26 @@
     <div class="popup__content popup__content_type_addCard">
       <h3 class="popup__title">Новое место</h3>
       <form name="submitForm-addCard" class="popup__form popup__form_type_addCard">
-        <input type="text" name="title" class="popup__input popup__input_type_card-title" placeholder="Название">
-        <input type="text" name="link" class="popup__input popup__input_type_card-link" placeholder="Ссылка на картинку">
+        <input
+          id="title"
+          autocomplete="off"
+          type="text"
+          name="title"
+          class="popup__input popup__input_type_card-title"
+          placeholder="Название"
+          minlength="2"
+          maxlength="30"
+          required>
+        <span class="popup__error_visible" id="title-error"> </span>
+        <input
+          id="link"
+          autocomplete="off"
+          type="url"
+          name="link"
+          class="popup__input popup__input_type_card-link"
+          placeholder="Ссылка на картинку"
+          required>
+        <span class="popup__error_visible" id="link-error"> </span>
         <button type="submit" class="button button_type_submit">Создать</button>
       </form>
       <button type="button" class="button button_type_close"></button>
@@ -67,6 +103,7 @@
     </article>
   </template>
   <script src="scripts/script.js"></script>
+  <script src="scripts/validate.js"></script>
 </body>
 </html>
 

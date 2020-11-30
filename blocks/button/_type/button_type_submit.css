@@ -10,13 +10,20 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  margin-top: 48px;
   border: none;
   padding: 0;
+  position: absolute;
+  bottom: 36px;
 }
 
 .button_type_submit:hover {
   opacity: 0.8;
+}
+
+.button_type_submit-disabled {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 767px) {

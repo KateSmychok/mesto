@@ -20,6 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49e97c01-56e1-4a8e-91a8-01956a6a9d4c" name="Default Changelist" comment="Функционал попапов, загрузка изображений через JS">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_submit.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/button/_type/button_type_submit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_card-link.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_card-link.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_card-title.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_card-title.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_name.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_name.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +55,7 @@
     <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,15 +71,23 @@
       <recent name="C:\Users\Designer1\dev\mesto\blocks\popup\__form" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.script.js">
+  <component name="RunManager" selected="JavaScript Debug.JS1">
     <configuration name="Google" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="9229">
       <method v="2" />
     </configuration>
-    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/scripts/script.js" working-dir="$PROJECT_DIR$/scripts">
+    <configuration name="Unnamed" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" nameIsGenerated="true" port="9229">
+      <method v="2" />
+    </configuration>
+    <configuration name="JS1" type="JavascriptDebugType" uri="http://localhost:63342/index.html/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/scripts">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Attach to Node.js/Chrome.Google" />
+      <item itemvalue="Attach to Node.js/Chrome.Unnamed" />
+      <item itemvalue="JavaScript Debug.JS1" />
       <item itemvalue="Node.js.script.js" />
     </list>
     <recent_temporary>
@@ -99,6 +115,8 @@
       <workItem from="1606432801558" duration="287000" />
       <workItem from="1606507436491" duration="25777000" />
       <workItem from="1606596454793" duration="291000" />
+      <workItem from="1606652393445" duration="20570000" />
+      <workItem from="1606731366942" duration="19102000" />
     </task>
     <servers />
   </component>
@@ -118,22 +136,86 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="306" y="283" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606391950468">
+    <state x="278" y="256" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606742671427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="306" y="283" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606391950468" />
-    <state x="700" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606048636255">
+    <state x="278" y="256" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606742671427" />
+    <state x="700" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606660368834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="700" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606048636255" />
+    <state x="700" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606660368834" />
     <state x="828" y="401" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606517641149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="401" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606517641149" />
-    <state x="674" y="424" key="FileChooserDialogImpl" timestamp="1606392492521">
+    <state x="674" y="424" key="FileChooserDialogImpl" timestamp="1606742659744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="674" y="424" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606392492521" />
+    <state x="674" y="424" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606742659744" />
+    <state width="1362" height="323" key="GridCell.Tab.0.bottom" timestamp="1606747725841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="323" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606747725841" />
+    <state width="1362" height="323" key="GridCell.Tab.0.center" timestamp="1606747725841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="323" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606747725841" />
+    <state width="1362" height="323" key="GridCell.Tab.0.left" timestamp="1606747725841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="323" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606747725841" />
+    <state width="1362" height="323" key="GridCell.Tab.0.right" timestamp="1606747725841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="323" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606747725841" />
+    <state width="1362" height="323" key="GridCell.Tab.1.bottom" timestamp="1606747725841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="323" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606747725841" />
+    <state width="1362" height="323" key="GridCell.Tab.1.center" timestamp="1606747725841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="323" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606747725841" />
+    <state width="1362" height="323" key="GridCell.Tab.1.left" timestamp="1606747725841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="323" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606747725841" />
+    <state width="1362" height="323" key="GridCell.Tab.1.right" timestamp="1606747725841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="323" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606747725841" />
+    <state width="1362" height="323" key="GridCell.Tab.2.bottom" timestamp="1606747725842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="323" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606747725842" />
+    <state width="1362" height="323" key="GridCell.Tab.2.center" timestamp="1606747725841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="323" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606747725841" />
+    <state width="1362" height="323" key="GridCell.Tab.2.left" timestamp="1606747725841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="323" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606747725841" />
+    <state width="1362" height="323" key="GridCell.Tab.2.right" timestamp="1606747725841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="323" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606747725841" />
+    <state width="1362" height="323" key="GridCell.Tab.3.bottom" timestamp="1606747725842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="323" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606747725842" />
+    <state width="1362" height="323" key="GridCell.Tab.3.center" timestamp="1606747725842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="323" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606747725842" />
+    <state width="1362" height="323" key="GridCell.Tab.3.left" timestamp="1606747725842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="323" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606747725842" />
+    <state width="1362" height="323" key="GridCell.Tab.3.right" timestamp="1606747725842">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1362" height="323" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606747725842" />
     <state x="593" y="323" key="RollbackChangesDialog" timestamp="1606216293147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
