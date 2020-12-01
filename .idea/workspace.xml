@@ -21,9 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="49e97c01-56e1-4a8e-91a8-01956a6a9d4c" name="Default Changelist" comment="Функционал попапов, загрузка изображений через JS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__error/_visible/popup__error_visible.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/validate.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,18 +76,18 @@
     <configuration name="JS1" type="JavascriptDebugType" uri="http://localhost:63342/index.html/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/scripts">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/scripts/index.js" working-dir="$PROJECT_DIR$/scripts">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Attach to Node.js/Chrome.Google" />
       <item itemvalue="Attach to Node.js/Chrome.Unnamed" />
       <item itemvalue="JavaScript Debug.JS1" />
-      <item itemvalue="Node.js.script.js" />
+      <item itemvalue="Node.js.index.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.script.js" />
+        <item itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
   </component>
@@ -113,6 +113,8 @@
       <workItem from="1606652393445" duration="20570000" />
       <workItem from="1606731366942" duration="19102000" />
       <workItem from="1606758702526" duration="483000" />
+      <workItem from="1606759556223" duration="650000" />
+      <workItem from="1606830609563" duration="7886000" />
     </task>
     <servers />
   </component>

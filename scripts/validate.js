@@ -26,7 +26,6 @@ const hasInvalidInput = (inputList) => {
 };
 
 const toggleButtonState = (inputList, button, config) => {
-  console.log(hasInvalidInput(inputList));
   if (hasInvalidInput(inputList)) {
     button.classList.add(config.inactiveButtonClass);
   } else {
@@ -37,7 +36,6 @@ const toggleButtonState = (inputList, button, config) => {
 const setEventListeners = (form, config) => {
   const inputList = Array.from(form.querySelectorAll(config.inputSelector));
   const button = form.querySelector(config.submitButtonSelector);
-  console.log(button);
   toggleButtonState(inputList, button, config);
   inputList.forEach((input) => {
     input.addEventListener('input', function () {
@@ -49,7 +47,6 @@ const setEventListeners = (form, config) => {
 
 const enableValidation = (config) => {
   const formList = Array.from(document.querySelectorAll(config.formSelector));
-  console.log(formList);
   formList.forEach((form) => {
     form.addEventListener('submit', function (evt) {
       evt.preventDefault();

@@ -25,7 +25,7 @@
     <section class="places"></section>
   </main>
   <footer class="footer">
-    <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
+    <p class="footer__copyright">&copy; Kate Smychok 2020 Mesto Russia</p>
   </footer>
   <div class="popup popup_type_profile">
     <div class="popup__content popup__content_type_profile">
@@ -37,6 +37,7 @@
           type="text"
           name="name"
           class="popup__input popup__input_type_name"
+          placeholder="Имя"
           minlength="2"
           maxlength="40"
           required>
@@ -47,13 +48,14 @@
           type="text"
           name="job"
           class="popup__input popup__input_type_job"
+          placeholder="Вид деятельности"
           minlength="2"
           maxlength="200"
           required>
         <span class="popup__error" id="job-error"> </span>
         <button type="submit" class="button button_type_submit button_type_profile">Сохранить</button>
       </form>
-      <button type="button" class="button button_type_close"></button>
+      <button type="button" class="button button_type_close button_type_close-profile"></button>
     </div>
   </div>
   <div class="popup popup_type_addCard">
@@ -80,16 +82,16 @@
           placeholder="Ссылка на картинку"
           required>
         <span class="popup__error" id="link-error"> </span>
-        <button type="submit" class="button button_type_submit">Создать</button>
+        <button type="submit" class="button button_type_submit button_type_addCard">Создать</button>
       </form>
-      <button type="button" class="button button_type_close"></button>
+      <button type="button" class="button button_type_close button_type_close-addCard"></button>
     </div>
   </div>
   <div class="popup popup_type_fullImage">
     <div class="popup__content popup__content_type_fullImage">
       <img class="popup__image" src=" " alt=" ">
       <h3 class="popup__caption"></h3>
-      <button type="button" class="button button_type_close"></button>
+      <button type="button" class="button button_type_close button_type_close-fullImage"></button>
     </div>
   </div>
   <template id="card-template">
@@ -102,7 +104,8 @@
       <button type="button" class="button button_type_delete"></button>
     </article>
   </template>
-  <script src="scripts/script.js"></script>
+  <script src="scripts/initialCards.js"></script>
+  <script src="scripts/index.js"></script>
   <script src="scripts/validate.js"></script>
 </body>
 </html>
