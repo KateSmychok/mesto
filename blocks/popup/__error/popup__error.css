@@ -10,3 +10,10 @@
   align-self: start;
   padding-left: 36px;
 }
+
+@media screen and (max-width: 767px) {
+  .popup__error {
+    max-width: 238px;
+    padding-left: 22px;
+  }
+}

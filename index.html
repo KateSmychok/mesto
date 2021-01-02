@@ -30,7 +30,7 @@
   <div class="popup popup_type_profile">
     <div class="popup__content popup__content_type_profile">
       <h3 class="popup__title">Редактировать профиль</h3>
-      <form name="submitForm-profile" class="popup__form popup__form_type_profile">
+      <form name="form-profile" class="popup__form popup__form_type_profile">
         <input
           id="name"
           autocomplete="off"
@@ -61,7 +61,7 @@
   <div class="popup popup_type_addCard">
     <div class="popup__content popup__content_type_addCard">
       <h3 class="popup__title">Новое место</h3>
-      <form name="submitForm-addCard" class="popup__form popup__form_type_addCard">
+      <form name="form-addCard" class="popup__form popup__form_type_addCard">
         <input
           id="title"
           autocomplete="off"
@@ -104,9 +104,9 @@
       <button type="button" class="button button_type_delete"></button>
     </article>
   </template>
-  <script src="scripts/initialCards.js"></script>
-  <script src="scripts/index.js"></script>
-  <script src="scripts/validate.js"></script>
+  <script type="module" src="scripts/index.js"></script>
+  <script type="module" src="scripts/Card.js"></script>
+  <script type="module" src="scripts/FormValidator.js"></script>
 </body>
 </html>
 
