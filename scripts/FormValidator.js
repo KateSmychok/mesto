@@ -51,6 +51,21 @@ export class FormValidator {
   enableValidation() {
     this._setEventListeners();
   };
+
+  removeErrors() {
+    this._inputList.forEach((input) => {
+      this._hideInputError(input)
+    })
+  }
+
+  enableButton() {
+    this._submitButton.classList.remove(this._config.inactiveButtonClass);
+  }
+
+  disableButton() {
+    this._submitButton.classList.add(this._config.inactiveButtonClass);
+  }
+
 }
 
 
