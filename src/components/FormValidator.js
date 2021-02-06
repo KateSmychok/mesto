@@ -4,7 +4,7 @@ export class FormValidator {
     this._config = config;
     this._inputList = Array.from(form.querySelectorAll(config.inputSelector));
     this._submitButton = form.querySelector(config.submitButtonSelector);
-  }
+  };
 
   _showInputError(input) {
     input.classList.add(this._config.inputErrorClass);
@@ -56,16 +56,15 @@ export class FormValidator {
     this._inputList.forEach((input) => {
       this._hideInputError(input)
     })
-  }
+  };
 
   enableButton() {
     this._submitButton.classList.remove(this._config.inactiveButtonClass);
-  }
+  };
 
   disableButton() {
     this._submitButton.classList.add(this._config.inactiveButtonClass);
   }
-
 }
 
 

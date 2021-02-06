@@ -20,10 +20,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49e97c01-56e1-4a8e-91a8-01956a6a9d4c" name="Default Changelist" comment="Функционал попапов, загрузка изображений через JS">
+      <change afterPath="$PROJECT_DIR$/src/pages/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/FormValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/FormValidator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_add.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/button/_type/button_type_add.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_close.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/button/_type/button_type_close.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_delete.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/button/_type/button_type_delete.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_edit.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/button/_type/button_type_edit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_like.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/button/_type/button_type_like.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_submit.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/button/_type/button_type_submit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/button/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/button/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/content/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/content/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer/__copyright/footer__copyright.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/footer/__copyright/footer__copyright.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/footer/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header/__logo/header__logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/header/__logo/header__logo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/header/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/page/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/page/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/place/__caption/place__caption.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/place/__caption/place__caption.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/place/__image/place__image.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/place/__image/place__image.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/place/__title/place__title.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/place/__title/place__title.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/place/place.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/place/place.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/places/places.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/places/places.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__caption/popup__caption.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__caption/popup__caption.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__content/_type/popup__content_type_addCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__content/_type/popup__content_type_addCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__content/_type/popup__content_type_fullImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__content/_type/popup__content_type_fullImage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__content/_type/popup__content_type_profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__content/_type/popup__content_type_profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__content/popup__content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__content/popup__content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__error/popup__error.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__error/popup__error.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__form/popup__form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__form/popup__form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__image/popup__image.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__image/popup__image.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_error/popup__input_error.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__input/_error/popup__input_error.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_card-link.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__input/_type/popup__input_type_card-link.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_card-title.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__input/_type/popup__input_type_card-title.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_job.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__input/_type/popup__input_type_job.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_name.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__input/_type/popup__input_type_name.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__input/popup__input.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/__title/popup__title.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__title/popup__title.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/_opened/popup_opened.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/_opened/popup_opened.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/_type/popup_type_add.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/_type/popup_type_add.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/_type/popup_type_edit.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/_type/popup_type_edit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/_type/popup_type_fullImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/_type/popup_type_fullImage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/popup/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/profile/__avatar/profile__avatar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/profile/__avatar/profile__avatar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/profile/__first-row/profile__first-row.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/profile/__first-row/profile__first-row.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/profile/__info/profile__info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/profile/__info/profile__info.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/profile/__job/profile__job.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/profile/__job/profile__job.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/profile/__name/profile__name.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/profile/__name/profile__name.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/profile/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/profile/profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Inter-Black.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Inter-Black.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Inter-Black.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Inter-Black.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Inter-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Inter-Medium.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Inter-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Inter-Medium.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Inter-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Inter-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Inter-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Inter-Regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Add.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Add.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Close.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Delete.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Edit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Edit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Like.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Like.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Like_active.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Like_active.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Байкал.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Байкал.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Домбай.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Домбай.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Жак-Ив_Кусто.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Жак-Ив_Кусто.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Кичи-Балык.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Кичи-Балык.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Красноярский_край.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Красноярский_край.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Крым.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Крым.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Эльбрус.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Эльбрус.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/FormValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormValidator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +130,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Designer1\dev\mesto\src\components" />
+      <recent name="C:\Users\Designer1\dev\mesto\src\pages" />
+      <recent name="C:\Users\Designer1\dev\mesto\src" />
       <recent name="C:\Users\Designer1\dev\mesto\blocks\popup\_opened" />
       <recent name="C:\Users\Designer1\dev\mesto\blocks\button\_type" />
-      <recent name="C:\Users\Designer1\dev\mesto\blocks\popup\__form" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.JS1">
@@ -74,13 +144,13 @@
     <configuration name="Unnamed" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" nameIsGenerated="true" port="9229">
       <method v="2" />
     </configuration>
-    <configuration name="JS1" type="JavascriptDebugType" uri="http://localhost:63342/index.html/index.html" useBuiltInWebServerPort="true">
+    <configuration name="JS1" type="JavascriptDebugType" uri="http://localhost:63342/index.html/src/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Card.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/scripts/Card.js" working-dir="$PROJECT_DIR$/scripts">
+    <configuration name="Card.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/Card.js" working-dir="$PROJECT_DIR$/src/utils">
       <method v="2" />
     </configuration>
-    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/scripts/index.js" working-dir="$PROJECT_DIR$/scripts">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/pages/index.js" working-dir="$PROJECT_DIR$/src/utils">
       <method v="2" />
     </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/scripts/index.js" working-dir="$PROJECT_DIR$/scripts">
@@ -129,6 +199,7 @@
       <workItem from="1609318488431" duration="36626000" />
       <workItem from="1609615879077" duration="48000" />
       <workItem from="1609684180123" duration="5057000" />
+      <workItem from="1612359370770" duration="20476000" />
     </task>
     <servers />
   </component>
@@ -165,86 +236,102 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="674" y="424" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606742659744" />
-    <state width="1670" height="358" key="GridCell.Tab.0.bottom" timestamp="1609614772132">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1331" height="90" key="GridCell.Tab.0.bottom" timestamp="1612625236537">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1670" height="358" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1609614772132" />
     <state width="1670" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608730826736" />
-    <state width="1670" height="358" key="GridCell.Tab.0.center" timestamp="1609614772132">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1331" height="90" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1612625236537" />
+    <state width="1331" height="90" key="GridCell.Tab.0.center" timestamp="1612625236537">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1670" height="358" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1609614772132" />
     <state width="1670" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608730826736" />
-    <state width="1670" height="358" key="GridCell.Tab.0.left" timestamp="1609614772131">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1331" height="90" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1612625236537" />
+    <state width="1331" height="90" key="GridCell.Tab.0.left" timestamp="1612625236536">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1670" height="358" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1609614772131" />
     <state width="1670" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608730826735" />
-    <state width="1670" height="358" key="GridCell.Tab.0.right" timestamp="1609614772132">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1331" height="90" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1612625236536" />
+    <state width="1331" height="90" key="GridCell.Tab.0.right" timestamp="1612625236537">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1670" height="358" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1609614772132" />
     <state width="1670" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608730826736" />
-    <state width="1670" height="358" key="GridCell.Tab.1.bottom" timestamp="1609614772132">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1331" height="90" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1612625236537" />
+    <state width="1331" height="90" key="GridCell.Tab.1.bottom" timestamp="1612625236537">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1670" height="358" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1609614772132" />
     <state width="1670" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608730826736" />
-    <state width="1670" height="358" key="GridCell.Tab.1.center" timestamp="1609614772132">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1331" height="90" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1612625236537" />
+    <state width="1331" height="90" key="GridCell.Tab.1.center" timestamp="1612625236537">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1670" height="358" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1609614772132" />
     <state width="1670" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608730826736" />
-    <state width="1670" height="358" key="GridCell.Tab.1.left" timestamp="1609614772132">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1331" height="90" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1612625236537" />
+    <state width="1331" height="90" key="GridCell.Tab.1.left" timestamp="1612625236537">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1670" height="358" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1609614772132" />
     <state width="1670" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608730826736" />
-    <state width="1670" height="358" key="GridCell.Tab.1.right" timestamp="1609614772132">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1331" height="90" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1612625236537" />
+    <state width="1331" height="90" key="GridCell.Tab.1.right" timestamp="1612625236537">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1670" height="358" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1609614772132" />
     <state width="1670" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608730826736" />
-    <state width="1670" height="358" key="GridCell.Tab.2.bottom" timestamp="1609614772132">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1331" height="90" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1612625236537" />
+    <state width="1331" height="90" key="GridCell.Tab.2.bottom" timestamp="1612625236537">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1670" height="358" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1609614772132" />
     <state width="1670" height="344" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608730826737" />
-    <state width="1670" height="358" key="GridCell.Tab.2.center" timestamp="1609614772132">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1331" height="90" key="GridCell.Tab.2.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1612625236537" />
+    <state width="1331" height="90" key="GridCell.Tab.2.center" timestamp="1612625236537">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1670" height="358" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1609614772132" />
     <state width="1670" height="344" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608730826736" />
-    <state width="1670" height="358" key="GridCell.Tab.2.left" timestamp="1609614772132">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1331" height="90" key="GridCell.Tab.2.center/0.0.2048.1112@0.0.2048.1112" timestamp="1612625236537" />
+    <state width="1331" height="90" key="GridCell.Tab.2.left" timestamp="1612625236537">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1670" height="358" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1609614772132" />
     <state width="1670" height="344" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608730826736" />
-    <state width="1670" height="358" key="GridCell.Tab.2.right" timestamp="1609614772132">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1331" height="90" key="GridCell.Tab.2.left/0.0.2048.1112@0.0.2048.1112" timestamp="1612625236537" />
+    <state width="1331" height="90" key="GridCell.Tab.2.right" timestamp="1612625236537">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1670" height="358" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1609614772132" />
     <state width="1670" height="344" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608730826736" />
-    <state width="1670" height="358" key="GridCell.Tab.3.bottom" timestamp="1609614772132">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1331" height="90" key="GridCell.Tab.2.right/0.0.2048.1112@0.0.2048.1112" timestamp="1612625236537" />
+    <state width="1331" height="90" key="GridCell.Tab.3.bottom" timestamp="1612625236537">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1670" height="358" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1609614772132" />
     <state width="1670" height="344" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608730826737" />
-    <state width="1670" height="358" key="GridCell.Tab.3.center" timestamp="1609614772132">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1331" height="90" key="GridCell.Tab.3.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1612625236537" />
+    <state width="1331" height="90" key="GridCell.Tab.3.center" timestamp="1612625236537">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1670" height="358" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1609614772132" />
     <state width="1670" height="344" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608730826737" />
-    <state width="1670" height="358" key="GridCell.Tab.3.left" timestamp="1609614772132">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1331" height="90" key="GridCell.Tab.3.center/0.0.2048.1112@0.0.2048.1112" timestamp="1612625236537" />
+    <state width="1331" height="90" key="GridCell.Tab.3.left" timestamp="1612625236537">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1670" height="358" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1609614772132" />
     <state width="1670" height="344" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608730826737" />
-    <state width="1670" height="358" key="GridCell.Tab.3.right" timestamp="1609614772132">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1331" height="90" key="GridCell.Tab.3.left/0.0.2048.1112@0.0.2048.1112" timestamp="1612625236537" />
+    <state width="1331" height="90" key="GridCell.Tab.3.right" timestamp="1612625236537">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1670" height="358" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1609614772132" />
     <state width="1670" height="344" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608730826737" />
+    <state width="1331" height="90" key="GridCell.Tab.3.right/0.0.2048.1112@0.0.2048.1112" timestamp="1612625236537" />
     <state x="593" y="323" key="RollbackChangesDialog" timestamp="1606216293147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -273,9 +360,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1179" y="327" key="run.anything.popup/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606391978924" />
-    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1606512869545">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="666" y="256" width="717" height="725" key="search.everywhere.popup" timestamp="1612535080283">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606512869545" />
+    <state x="666" y="256" width="717" height="725" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1612535080283" />
   </component>
 </project>
