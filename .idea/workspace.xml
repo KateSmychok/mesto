@@ -19,80 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49e97c01-56e1-4a8e-91a8-01956a6a9d4c" name="Default Changelist" comment="Функционал попапов, загрузка изображений через JS">
-      <change afterPath="$PROJECT_DIR$/src/pages/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_add.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/button/_type/button_type_add.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_close.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/button/_type/button_type_close.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_delete.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/button/_type/button_type_delete.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_edit.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/button/_type/button_type_edit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_like.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/button/_type/button_type_like.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/_type/button_type_submit.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/button/_type/button_type_submit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/button/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/button/button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/content/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/content/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/footer/__copyright/footer__copyright.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/footer/__copyright/footer__copyright.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/footer/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/header/__logo/header__logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/header/__logo/header__logo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/page/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/page/page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/place/__caption/place__caption.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/place/__caption/place__caption.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/place/__image/place__image.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/place/__image/place__image.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/place/__title/place__title.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/place/__title/place__title.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/place/place.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/place/place.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/places/places.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/places/places.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__caption/popup__caption.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__caption/popup__caption.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__content/_type/popup__content_type_addCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__content/_type/popup__content_type_addCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__content/_type/popup__content_type_fullImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__content/_type/popup__content_type_fullImage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__content/_type/popup__content_type_profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__content/_type/popup__content_type_profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__content/popup__content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__content/popup__content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__error/popup__error.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__error/popup__error.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__form/popup__form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__form/popup__form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__image/popup__image.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__image/popup__image.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_error/popup__input_error.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__input/_error/popup__input_error.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_card-link.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__input/_type/popup__input_type_card-link.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_card-title.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__input/_type/popup__input_type_card-title.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_job.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__input/_type/popup__input_type_job.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/_type/popup__input_type_name.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__input/_type/popup__input_type_name.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__input/popup__input.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__input/popup__input.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/__title/popup__title.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__title/popup__title.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/_opened/popup_opened.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/_opened/popup_opened.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/_type/popup_type_add.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/_type/popup_type_add.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/_type/popup_type_edit.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/_type/popup_type_edit.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/_type/popup_type_fullImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/_type/popup_type_fullImage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/popup/popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/profile/__avatar/profile__avatar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/profile/__avatar/profile__avatar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/profile/__first-row/profile__first-row.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/profile/__first-row/profile__first-row.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/profile/__info/profile__info.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/profile/__info/profile__info.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/profile/__job/profile__job.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/profile/__job/profile__job.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/profile/__name/profile__name.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/profile/__name/profile__name.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/profile/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/profile/profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Inter-Black.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Inter-Black.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Inter-Black.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Inter-Black.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Inter-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Inter-Medium.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Inter-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Inter-Medium.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Inter-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Inter-Regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Inter-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Inter-Regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Add.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Add.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Close.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Delete.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Edit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Edit.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Like.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Like.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Like_active.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Like_active.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Байкал.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Байкал.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Домбай.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Домбай.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Жак-Ив_Кусто.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Жак-Ив_Кусто.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Кичи-Балык.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Кичи-Балык.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Красноярский_край.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Красноярский_край.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Крым.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Крым.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Эльбрус.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Эльбрус.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/FormValidator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FormValidator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="49e97c01-56e1-4a8e-91a8-01956a6a9d4c" name="Default Changelist" comment="Refactoring: classes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,8 +126,23 @@
       <workItem from="1609318488431" duration="36626000" />
       <workItem from="1609615879077" duration="48000" />
       <workItem from="1609684180123" duration="5057000" />
-      <workItem from="1612359370770" duration="20476000" />
+      <workItem from="1612359370770" duration="21103000" />
     </task>
+    <task id="LOCAL-00001" summary="Refactoring: classes">
+      <created>1612639020780</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612639020780</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Refactoring: classes">
+      <created>1612639054759</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612639054759</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +159,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactoring: classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring: classes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="278" y="256" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606742671427">
