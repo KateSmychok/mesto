@@ -1,3 +1,4 @@
+import './index.css';
 import { Card } from '../components/Card.js';
 import { FormValidator } from '../components/FormValidator.js';
 import { Section } from '../components/Section.js';
@@ -59,7 +60,6 @@ const popupWithFormProfile = new PopupWithForm({
 
 editButton.addEventListener('click', function() {
   const userData = userInfo.getUserInfo();
-  console.log(userInfo.getUserInfo());
   nameInput.value = userData.name;
   jobInput.value = userData.job;
   formProfileValidation.removeErrors();

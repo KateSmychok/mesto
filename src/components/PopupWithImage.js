@@ -6,10 +6,10 @@ export class PopupWithImage extends Popup {
     super(popupSelector);
   };
 
-  open(name, link) {
+  open(title, link) {
     popupImage.src = link;
-    popupImage.alt = name;
-    popupCaption.textContent = name;
+    popupImage.alt = title;
+    popupCaption.textContent = title;
     super.open();
   };
 }

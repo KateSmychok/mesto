@@ -1,27 +1,34 @@
+import elbrus from '../images/Эльбрус.jpg';
+import kichi from '../images/Кичи-Балык.jpg';
+import baykal from '../images/Байкал.jpg';
+import krasnoyarsk from '../images/Красноярский_край.jpg';
+import krym from '../images/Крым.jpg';
+import dombay from '../images/Домбай.jpg';
+
 export const initialCards = [
   {
     title: 'Эльбрус',
-    link: 'images/Эльбрус.jpg'
+    link: elbrus
   },
   {
     title: 'Кичи-Балык',
-    link: 'images/Кичи-Балык.jpg'
+    link: kichi
   },
   {
     title: 'Байкал',
-    link: 'images/Байкал.jpg'
+    link: baykal
   },
   {
     title: 'Красноярский край',
-    link: 'images/Красноярский_край.jpg'
+    link: krasnoyarsk
   },
   {
     title: 'Крым',
-    link: 'images/Крым.jpg'
+    link: krym
   },
   {
     title: 'Домбай',
-    link: 'images/Домбай.jpg'
+    link: dombay
   }
 ];
 
