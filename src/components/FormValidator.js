@@ -1,18 +1,19 @@
 export class FormValidator {
   constructor(config, form) {
     this._config = config;
+    this._form = form;
     this._inputList = Array.from(form.querySelectorAll(config.inputSelector));
     this._submitButton = form.querySelector(config.submitButtonSelector);
   };
 
   _showInputError(input) {
     input.classList.add(this._config.inputErrorClass);
-    document.querySelector(`#${input.id}-error`).textContent = input.validationMessage;
+    this._form.querySelector(`#${input.id}-error`).textContent = input.validationMessage;
   };
 
   _hideInputError(input) {
     input.classList.remove(this._config.inputErrorClass);
-    document.querySelector(`#${input.id}-error`).textContent = '';
+    this._form.querySelector(`#${input.id}-error`).textContent = '';
   };
 
   _checkInputValidity(input) {

@@ -23,31 +23,35 @@ import {
   jobInput,
 } from '../utils/constants.js';
 
+function createCard(item) {
+  const card = new Card(item, '#card-template', handleCardClick);
+  const cardElement = card.createCard();
+  return cardElement;
+};
+
 const cardsList = new Section({
   items: initialCards,
   renderer: (item) => {
-    const card = new Card(item, '#card-template', handleCardClick);
-    const cardElement = card.createCard();
+    const cardElement = createCard(item)
     cardsList.addItem(cardElement);
   }
 }, places);
 
 cardsList.renderItems();
 
+const popupWithFormAddCard = new PopupWithForm({
+  popupSelector: popupAddCard,
+  handleFormSubmit: (info) => {
+    const cardElement = createCard(info);
+    cardsList.addItem(cardElement);
+  }
+});
+
 const popupImage = new PopupWithImage(popupFullImage);
 
 function handleCardClick(title, link) {
   popupImage.open(title, link);
 };
-
-const popupWithFormAddCard = new PopupWithForm({
-  popupSelector: popupAddCard,
-  handleFormSubmit: (info) => {
-    const card = new Card(info, '#card-template', handleCardClick);
-    const cardElement = card.createCard();
-    cardsList.addItem(cardElement);
-  }
-});
 
 const userInfo = new UserInfo(name, job);
 

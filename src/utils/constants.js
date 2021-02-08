@@ -44,8 +44,6 @@ export const popupFullImage = document.querySelector('.popup_type_fullImage');
 export const popupProfile = document.querySelector('.popup_type_profile');
 export const popupAddCard = document.querySelector('.popup_type_addCard');
 
-export const popupImage = document.querySelector('.popup__image');
-export const popupCaption = document.querySelector('.popup__caption');
 export const places = document.querySelector('.places');
 
 export const formProfile = document.querySelector('.popup__form_type_profile');
