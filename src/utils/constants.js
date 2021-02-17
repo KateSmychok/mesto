@@ -43,6 +43,8 @@ export const validationConfig = {
 export const popupFullImage = document.querySelector('.popup_type_fullImage');
 export const popupProfile = document.querySelector('.popup_type_profile');
 export const popupAddCard = document.querySelector('.popup_type_addCard');
+export const popupAvatar = document.querySelector('.popup_type_avatar');
+export const popupConfirm = document.querySelector('.popup_type_confirm');
 
 export const places = document.querySelector('.places');
 
@@ -56,3 +58,5 @@ export const jobInput = document.querySelector('.popup__input_type_job');
 
 export const editButton = document.querySelector('.button_type_edit');
 export const addCardButton = document.querySelector('.button_type_add');
+export const updateAvatarButton = document.querySelector('.profile__avatar');
+

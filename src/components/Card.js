@@ -27,7 +27,7 @@ export class Card {
     });
 
     this._element.querySelector('.button_type_delete').addEventListener('click', () => {
-      this._deleteCard()
+      this._deleteCard();
     });
 
     this._cardImage.addEventListener('click', () => {

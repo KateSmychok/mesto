@@ -11,7 +11,10 @@
   </header>
   <main class="content">
     <section class="profile">
-      <img class="profile__avatar" src="<%=require('./images/Жак-Ив_Кусто.jpg')%>" alt="Фото пользователя">
+      <div class="profile__userPhoto">
+        <button type="button" class="button button_type_updateAvatar"></button>
+        <img class="profile__avatar" src="<%=require('./images/Жак-Ив_Кусто.jpg')%>" alt="Фото пользователя">
+      </div>
       <div class="profile__info">
         <div class="profile__first-row">
           <h1 class="profile__name">Жак-Ив Кусто</h1>
@@ -91,6 +94,31 @@
       <img class="popup__image" src=" " alt=" ">
       <h3 class="popup__caption"></h3>
       <button type="button" class="button button_type_close button_type_close-fullImage"></button>
+    </div>
+  </div>
+  <div class="popup popup_type_avatar">
+    <div class="popup__content popup__content_type_avatar">
+      <h3 class="popup__title">Обновить аватар</h3>
+      <form name="form-newAvatar" class="popup__form popup__form_type_avatar">
+        <input
+          id="avatar-link"
+          autocomplete="off"
+          type="url"
+          name="avatar-link"
+          class="popup__input popup__input_type_avatar-link"
+          placeholder="Ссылка на картинку"
+          required>
+        <span class="popup__error" id="avatar-link-error"> </span>
+        <button type="submit" class="button button_type_submit button_type_avatar">Сохранить</button>
+      </form>
+      <button type="button" class="button button_type_close button_type_close-avatar"></button>
+    </div>
+  </div>
+  <div class="popup popup_type_confirm">
+    <div class="popup__content popup__content_type_confirm">
+      <h3 class="popup__title">Вы уверены?</h3>
+      <button type="button" class="button button_type_confirm">Сохранить</button>
+      <button type="button" class="button button_type_close button_type_close-confirm"></button>
     </div>
   </div>
   <template id="card-template">

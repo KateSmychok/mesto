@@ -12,11 +12,14 @@ import {
   popupFullImage,
   popupProfile,
   popupAddCard,
+  popupAvatar,
+  popupConfirm,
   places,
   formProfile,
   formAddCard,
   editButton,
   addCardButton,
+  updateAvatarButton,
   name,
   job,
   nameInput,
@@ -47,6 +50,12 @@ const popupWithFormAddCard = new PopupWithForm({
   }
 });
 
+addCardButton.addEventListener('click', function () {
+  formAddCardValidation.removeErrors();
+  formAddCardValidation.disableButton();
+  popupWithFormAddCard.open();
+});
+
 const popupImage = new PopupWithImage(popupFullImage);
 
 function handleCardClick(title, link) {
@@ -71,11 +80,16 @@ editButton.addEventListener('click', function() {
   popupWithFormProfile.open();
 });
 
-addCardButton.addEventListener('click', function () {
-  formAddCardValidation.removeErrors();
-  formAddCardValidation.disableButton();
-  popupWithFormAddCard.open();
-});
+const popupWithFormAvatar = new PopupWithForm({
+  popupSelector: popupAvatar,
+  handleFormSubmit: (info) => {
+    console.log(info)
+  }
+})
+
+updateAvatarButton.addEventListener('click', function() {
+  popupWithFormAvatar.open();
+})
 
 const formProfileValidation = new FormValidator(validationConfig, formProfile);
 formProfileValidation.enableValidation();
