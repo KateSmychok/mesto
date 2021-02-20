@@ -27,13 +27,12 @@
   <component name="ChangeListManager">
     <list default="true" id="49e97c01-56e1-4a8e-91a8-01956a6a9d4c" name="Default Changelist" comment="Refactoring: classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/popup/__content/_type/popup__content_type_addCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__content/_type/popup__content_type_addCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/popup/__content/_type/popup__content_type_fullImage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__content/_type/popup__content_type_fullImage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/popup/__content/_type/popup__content_type_profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__content/_type/popup__content_type_profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/popup/__content/popup__content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/popup/__content/popup__content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/button/_type/button_type_delete.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/button/_type/button_type_delete.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blocks/place/__caption/place__caption.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/place/__caption/place__caption.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/blocks/profile/__avatar/profile__avatar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/profile/__avatar/profile__avatar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PopupWithImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PopupWithImage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
@@ -151,7 +150,7 @@
       <workItem from="1612712282590" duration="8447000" />
       <workItem from="1612788148276" duration="3510000" />
       <workItem from="1612949605601" duration="957000" />
-      <workItem from="1613375400302" duration="24110000" />
+      <workItem from="1613375400302" duration="122178000" />
     </task>
     <task id="LOCAL-00001" summary="Refactoring: classes">
       <created>1612639020780</created>
@@ -323,18 +322,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="486" y="402" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606392588876" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604992153796">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1604992153796" />
     <state x="429" y="275" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1609608515838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="429" y="275" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1609608515838" />
-    <state x="231" y="118" width="585" height="888" key="find.popup" timestamp="1604996972390">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="231" y="118" width="585" height="888" key="find.popup/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1604996972390" />
     <state x="593" y="366" key="jetbrains.nodejs.interpreters-dialog" timestamp="1609608380909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -343,10 +334,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1179" y="327" key="run.anything.popup/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606391978924" />
-    <state x="666" y="256" width="717" height="725" key="search.everywhere.popup" timestamp="1612535080283">
+    <state x="666" y="256" width="717" height="725" key="search.everywhere.popup" timestamp="1613647965395">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1606512869545" />
-    <state x="666" y="256" width="717" height="725" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1612535080283" />
+    <state x="666" y="256" width="717" height="725" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1613647965395" />
   </component>
 </project>

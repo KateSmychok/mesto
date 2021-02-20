@@ -9,4 +9,9 @@
   background-color: transparent;
   border: none;
   padding: 0;
+  visibility: visible;
+}
+
+.button_type_delete_hidden {
+  visibility: hidden;
 }

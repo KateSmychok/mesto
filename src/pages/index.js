@@ -4,95 +4,197 @@ import { FormValidator } from '../components/FormValidator.js';
 import { Section } from '../components/Section.js';
 import { PopupWithImage } from '../components/PopupWithImage.js';
 import { PopupWithForm } from '../components/PopupWithForm.js';
+import { PopupConfirm } from '../components/PopupConfirm';
 import { UserInfo } from '../components/UserInfo.js';
+import { Api } from '../components/Api.js';
 
 import {
-  initialCards,
   validationConfig,
   popupFullImage,
   popupProfile,
   popupAddCard,
   popupAvatar,
-  popupConfirm,
+  popupConfirmDelete,
   places,
   formProfile,
   formAddCard,
+  formAvatarUpdate,
   editButton,
   addCardButton,
   updateAvatarButton,
   name,
   job,
+  avatar,
   nameInput,
   jobInput,
+
 } from '../utils/constants.js';
 
-function createCard(item) {
-  const card = new Card(item, '#card-template', handleCardClick);
+const api = new Api({
+  url: "https://mesto.nomoreparties.co/v1/cohort-20",
+  headers: {
+    "content-type": "application/json",
+    "authorization": "7669375e-39ff-4166-9493-af9a3aca797d",
+  },
+});
+
+const userInfo = new UserInfo(name, job, avatar);
+
+api.getUserInfo()
+  .then((data) => {
+    userInfo.setUserInfo(data);
+  })
+  .catch((err) => {
+    console.log(err);
+  })
+
+function createCard(data) {
+  const card = new Card({
+    data: data,
+    cardSelector: '#card-template',
+    userId: api.getUserInfo(),
+    handlers: {
+      handleCardClick: (title, link) => {
+        popupImage.open(title, link)
+      },
+      handleLikeClick: (cardId, isLiked) => {
+        return api.likeCard(cardId, isLiked)
+      },
+      handleDeleteIconClick: (cardObject) => {
+        popupConfirm.cardObject = cardObject;
+        popupConfirm.open()
+      }
+    }
+  })
   const cardElement = card.createCard();
+  card.markUserLikes(cardElement);
+  card.updateLikes(cardElement);
   return cardElement;
-};
+}
 
-const cardsList = new Section({
-  items: initialCards,
-  renderer: (item) => {
-    const cardElement = createCard(item)
-    cardsList.addItem(cardElement);
-  }
-}, places);
+function addNewCard(card, place) {
+  place.prepend(card);
+}
 
-cardsList.renderItems();
+api.getInitialCards()
+  .then((data) => {
+    const CardsList = new Section({
+      items: data,
+      renderer: (item) => {
+        const cardElement = createCard(item);
+        CardsList.addItem(cardElement);
+      }
+    }, places);
+    CardsList.renderItems();
+  })
+  .catch((err) => {
+    console.log(err);
+  })
 
 const popupWithFormAddCard = new PopupWithForm({
   popupSelector: popupAddCard,
   handleFormSubmit: (info) => {
-    const cardElement = createCard(info);
-    cardsList.addItem(cardElement);
-  }
-});
+    renderLoading(popupAddCard, true);
+    api.postNewCard(info.title, info.link)
+      .then((data) => {
+        const cardElement = createCard(data);
+        addNewCard(cardElement, places);
+      })
+      .catch((err) => {
+        console.log(err);
+      })
+      .finally(() =>
+        renderLoading(popupAddCard, false))
 
-addCardButton.addEventListener('click', function () {
+  }
+})
+
+const popupWithFormProfile = new PopupWithForm({
+  popupSelector: popupProfile,
+  handleFormSubmit: (info) => {
+    renderLoading(popupProfile, true);
+    api.setUserInfo(info.name, info.job)
+      .then((data) => {
+        name.textContent = data.name;
+        job.textContent = data.about;
+      })
+      .catch((err) => {
+        console.log(err);
+      })
+      .finally(() =>
+        renderLoading(popupProfile, false))
+  }
+})
+
+const popupWithFormAvatar = new PopupWithForm({
+  popupSelector: popupAvatar,
+  handleFormSubmit: (info) => {
+    renderLoading(popupAvatar, true);
+    api.setAvatar(info.avatarLink)
+      .then((data) => {
+        avatar.src = data.avatar;
+      })
+      .catch((err) => {
+        console.log(err)
+      })
+      .finally(() =>
+        renderLoading(popupAvatar, false))
+  }
+})
+
+const popupImage = new PopupWithImage(popupFullImage);
+
+const popupConfirm = new PopupConfirm({
+  popupSelector: popupConfirmDelete,
+  handleDeleteButtonClick:  () => {
+    const cardId = popupConfirm.cardObject._cardId;
+    api.deleteCard(cardId)
+      .then(() => {
+        popupConfirm.cardObject.deleteCard();
+        popupConfirm.close();
+        popupConfirm.cardObject = '';
+      })
+      .catch(err => {
+        console.log(err);
+      })
+  }
+})
+
+addCardButton.addEventListener('click', function() {
   formAddCardValidation.removeErrors();
   formAddCardValidation.disableButton();
   popupWithFormAddCard.open();
 });
 
-const popupImage = new PopupWithImage(popupFullImage);
-
-function handleCardClick(title, link) {
-  popupImage.open(title, link);
-};
-
-const userInfo = new UserInfo(name, job);
-
-const popupWithFormProfile = new PopupWithForm({
-  popupSelector: popupProfile,
-  handleFormSubmit: (info) => {
-    userInfo.setUserInfo(info.name, info.job)
-  }
-});
-
 editButton.addEventListener('click', function() {
-  const userData = userInfo.getUserInfo();
-  nameInput.value = userData.name;
-  jobInput.value = userData.job;
+  nameInput.value = name.textContent;
+  jobInput.value = job.textContent;
   formProfileValidation.removeErrors();
   formProfileValidation.enableButton();
   popupWithFormProfile.open();
-});
-
-const popupWithFormAvatar = new PopupWithForm({
-  popupSelector: popupAvatar,
-  handleFormSubmit: (info) => {
-    console.log(info)
-  }
 })
 
 updateAvatarButton.addEventListener('click', function() {
   popupWithFormAvatar.open();
 })
 
+function renderLoading(popup, isLoading) {
+  const submitButton = popup.querySelector('.button_type_submit');
+  if(isLoading) {
+    submitButton.textContent = 'Сохранение...'
+  }
+  else {
+    submitButton.textContent = 'Сохранить'
+  }
+}
+
 const formProfileValidation = new FormValidator(validationConfig, formProfile);
 formProfileValidation.enableValidation();
 
 const formAddCardValidation = new FormValidator(validationConfig, formAddCard);
 formAddCardValidation.enableValidation();
+
+const formAvatarValidation = new FormValidator(validationConfig, formAvatarUpdate);
+formAvatarValidation.enableValidation();
+
+
