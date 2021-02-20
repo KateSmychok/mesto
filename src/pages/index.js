@@ -40,8 +40,11 @@ const api = new Api({
 
 const userInfo = new UserInfo(name, job, avatar);
 
+let userId;
+
 api.getUserInfo()
   .then((data) => {
+    userId = data._id;
     userInfo.setUserInfo(data);
   })
   .catch((err) => {
@@ -52,7 +55,7 @@ function createCard(data) {
   const card = new Card({
     data: data,
     cardSelector: '#card-template',
-    userId: api.getUserInfo(),
+    userId: userId,
     handlers: {
       handleCardClick: (title, link) => {
         popupImage.open(title, link)
@@ -72,20 +75,18 @@ function createCard(data) {
   return cardElement;
 }
 
-function addNewCard(card, place) {
-  place.prepend(card);
-}
+let cardsList;
 
 api.getInitialCards()
   .then((data) => {
-    const CardsList = new Section({
+    cardsList = new Section({
       items: data,
       renderer: (item) => {
         const cardElement = createCard(item);
-        CardsList.addItem(cardElement);
+        cardsList.addItem(cardElement);
       }
     }, places);
-    CardsList.renderItems();
+    cardsList.renderItems();
   })
   .catch((err) => {
     console.log(err);
@@ -98,7 +99,7 @@ const popupWithFormAddCard = new PopupWithForm({
     api.postNewCard(info.title, info.link)
       .then((data) => {
         const cardElement = createCard(data);
-        addNewCard(cardElement, places);
+        cardsList.addItem(cardElement);
       })
       .catch((err) => {
         console.log(err);
@@ -115,8 +116,7 @@ const popupWithFormProfile = new PopupWithForm({
     renderLoading(popupProfile, true);
     api.setUserInfo(info.name, info.job)
       .then((data) => {
-        name.textContent = data.name;
-        job.textContent = data.about;
+        userInfo.setUserInfo(data);
       })
       .catch((err) => {
         console.log(err);
@@ -132,7 +132,7 @@ const popupWithFormAvatar = new PopupWithForm({
     renderLoading(popupAvatar, true);
     api.setAvatar(info.avatarLink)
       .then((data) => {
-        avatar.src = data.avatar;
+        userInfo.setUserInfo(data);
       })
       .catch((err) => {
         console.log(err)
@@ -167,8 +167,9 @@ addCardButton.addEventListener('click', function() {
 });
 
 editButton.addEventListener('click', function() {
-  nameInput.value = name.textContent;
-  jobInput.value = job.textContent;
+  const userData = userInfo.getUserInfo();
+  nameInput.value = userData.name;
+  jobInput.value = userData.job;
   formProfileValidation.removeErrors();
   formProfileValidation.enableButton();
   popupWithFormProfile.open();

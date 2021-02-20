@@ -9,11 +9,11 @@ export class PopupConfirm extends Popup {
 
   _setEventListeners() {
     super._setEventListeners();
-    this._deleteCardButton.addEventListener('click', this._confirmDelete)
+    this._deleteCardButton.addEventListener('click', this._confirmDelete);
   }
 
   _confirmDelete = () => {
-    this._handleDeleteButtonClick()
+    this._handleDeleteButtonClick();
   }
 
   open() {

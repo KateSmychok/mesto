@@ -30,16 +30,9 @@ export class Card {
   }
 
   markUserLikes(card) {
-    this._userId
-      .then((data) => {
-        if (this._likes.some(person => person._id === data._id))
-        {
-          this._buttonLike.classList.add('button_type_like_active');
-        }
-      })
-      .catch((err) => {
-        console.log(err);
-      })
+    if (this._likes.some(person => person._id === this._userId)) {
+      this._buttonLike.classList.add('button_type_like_active');
+    }
   }
 
   updateLikes(card) {
@@ -48,7 +41,7 @@ export class Card {
 
   _setEventListeners() {
     this._buttonLike.addEventListener('click', () => {
-      this._toggleLike()
+      this._toggleLike();
     });
 
     this._buttonDelete.addEventListener('click', () => {
@@ -66,18 +59,12 @@ export class Card {
   }
 
   _deleteCan() {
-    this._userId
-      .then((data) => {
-        if(data._id !== this._ownerId) {
-          this._buttonDelete.classList.add('button_type_delete_hidden')
-        }
-        else {
-          this._buttonDelete.classList.remove('button_type_delete_hidden')
-        }
-      })
-      .catch((err) => {
-        console.log(err);
-      })
+    if (this._userId !== this._ownerId) {
+      this._buttonDelete.classList.add('button_type_delete_hidden')
+    }
+    else {
+      this._buttonDelete.classList.remove('button_type_delete_hidden')
+    }
   }
 
   createCard() {
