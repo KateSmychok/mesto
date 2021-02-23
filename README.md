@@ -5,4 +5,4 @@
 
 В планах добавить больше интерактивности.
 
-Ссылка на сайт: https://katesmychok.github.io/mesto/index.html
+Ссылка на сайт: https://katesmychok.github.io/mesto
